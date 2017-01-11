@@ -1,0 +1,259 @@
+/* ------ CSS REST ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- Universal Style ----- */
+
+body {
+  font-family: 'Lora', serif;
+}
+
+a,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.button.button-primary {
+  background-color: #4D7298;
+  font-size: 1rem;
+  border: none;
+}
+
+a.button.button-primary:hover {
+  background-color: #70566D;
+}
+
+p {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+img{
+  max-width: 100%
+}
+footer{
+  background-image: url(../images/dark_embroidery.png);
+  color: white;
+}
+
+.rel {
+  position: relative;
+}
+
+.white-text {
+  color: white;
+}
+
+.blurb {
+  margin: 2%;
+}
+
+.box-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left:0;
+  top:0;
+}
+
+.box-img.right {
+  margin-left: 50vw;
+}
+
+.row .half-width.left {
+  width: 50%;
+  float: left;
+}
+
+.mobile-show {
+  display: none;
+}
+
+/* ------ Header Section ------ */
+header {
+  clear: both;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+  transition: 1s;
+}
+
+header li {
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.active {
+  border-bottom: 2px solid #7D6D61;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.light-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.light-bg.active {
+  background-color: rgba(255, 255, 255, 1);;
+}
+
+header img {
+  margin: 23px;
+  height: 91px;
+}
+
+nav {
+  display: inline-block;
+  width: 70%;
+  text-align: right;
+  vertical-align: top;
+  margin: 5vh 5%;
+  position: fixed;
+  right: 0;
+}
+
+nav li a:hover {
+  background-color: #70566D;
+  color: white;
+  border-radius: 10%;
+}
+
+.nav-stacked {
+  display: inline-block;
+}
+
+.dropdown-nav {
+  position:absolute;
+  right: 2vw;
+  top: 2vh;
+}
+
+.dropdown-content li {
+  display: block;
+}
+
+.dropdown-nav a{
+  text-align: right;
+  display: block
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+/* -----Home Page------ */
+
+/* --Home-Above-the-fold-- */
+.title-section {
+  background-image: url("../images/homeimage.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+/* --Home-Page-Sections--*/
+
+.row .half-width {
+  width: 50%;
+  float: right;
+}
+
+.row .half-width .blurb{
+  padding: 4%;
+}
+
+.about{
+  background-image: url("../images/sancita-bale.png");
+  left:50vw;
+}
+
+/* -----About The Villa Page------ */
+
+
+
+
+/* --Footer Section-- */
+footer .row{
+    border-top: 2px solid #7D6D61;
+    padding: 5%
+}
+
+footer {
+  padding: 1% 4%;
+  clear: both;
+}
+
+.row .five.columns p{
+  margin-bottom: 0;
+}
+
+footer .two.columns.fa{
+  color: blue;
+  font-size: 5rem;
+  background-color: white;
+  padding: 0 3px;
+  border-radius: 10%;
+}
+
+/*---Tablet Styles----*/
+
+@media screen and (max-width:800px) {
+  .mobile-show {
+    display: inline-block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  header nav {
+    text-align:center;
+    width: 100%;
+  }
+
+  header img {
+    text-align:center;
+  }
+
+  .intro {
+    min-height: 50vh;
+  }
+
+  /* Collapse columns */
+
+  .row .half-width {
+    width: 100%;
+  }
+
+  .row .half-width.left {
+    width: 100%
+  }
+
+}
+
+/*---Small Tablet or Large Phone Styles----*/
+
+@media screen and (max-width:650px) {
+}
+
+*---Phone Styles----*/
+
+@media screen and (max-width:450px){
+}
