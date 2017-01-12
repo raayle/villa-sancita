@@ -8,11 +8,15 @@ $( document ).ready(function() {
          $("header").removeClass("active");
       }
   });
-
-});
-
-$( document ).ready(function() {
-   $(".dropdown-nav").click(function(){
-     $(this).children(".dropdown-content").slideToggle();
-   });
+  $(".dropdown-nav").click(function(){
+    $(this).children(".dropdown-content").slideToggle();
+  });
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    loop: true,
+    // dots: true
+  });
 });
