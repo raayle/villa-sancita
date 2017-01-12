@@ -100,7 +100,8 @@ header li {
   margin: 0 8px;
 }
 
-.active {
+/* Used for the header opacity transition, added in script.js */
+.active-nav {
   border-bottom: 2px solid #7D6D61;
   background-color: white;
   transition: 0.5s;
@@ -185,7 +186,12 @@ span.bold {
 }
 
 /* -----About The Villa Page------ */
-
+/* Carousel */
+.owl-dots {
+  position: absolute;
+  right: 10px;
+  bottom: 46px;
+}
 
 
 
