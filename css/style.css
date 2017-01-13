@@ -169,15 +169,30 @@ span.bold {
   padding-top: 20vh;
 }
 
-/* --Home-Page-Sections--*/
+/* --Home-Page-Sections-- */
+
+/* --Carousel-Benefits-Section-- */
+
+/* --Carousel-- */
+.owl-dots {
+  position: absolute;
+  right: 10px;
+  bottom: 46px;
+}
 
 .row .half-width {
   width: 50%;
   float: right;
 }
 
-.row .half-width .blurb{
+.row .half-width .blurb {
   padding: 4%;
+}
+
+<--I want to get rid of the styling on the list of Best Price Guaranteed, etc as well as center the whole block with the text centered, but I cannot seem to target it properly - please help!"
+.home-section .li {
+  list-style: none;
+  text-align: center;
 }
 
 .about{
@@ -186,12 +201,7 @@ span.bold {
 }
 
 /* -----About The Villa Page------ */
-/* Carousel */
-.owl-dots {
-  position: absolute;
-  right: 10px;
-  bottom: 46px;
-}
+
 
 
 
