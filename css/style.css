@@ -189,11 +189,23 @@ span.bold {
   padding: 4%;
 }
 
-<--I want to get rid of the styling on the list of Best Price Guaranteed, etc as well as center the whole block with the text centered, but I cannot seem to target it properly - please help!"
-.home-section .li {
+/* Fixed! Here's what you originally had:
+ .home-section li {
+    list-style: none;
+    text-align: center;
+  }
+What I adjusted:
+  - Couldn't find .home-section on the index.html page, it looks like the target text
+    was inside .about-section
+  - To change the styling of the list you have to target the ul/ol element, not the li
+    since that's where the styling is originally applied. I'm sure you would have been
+    able to do this when you found the class name error though!
+*/
+.about-section ul {
   list-style: none;
   text-align: center;
 }
+
 
 .about{
   background-image: url("../images/sancita-bale.png");
