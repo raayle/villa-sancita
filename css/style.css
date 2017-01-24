@@ -22,7 +22,7 @@ a {
 
 a.button.button-primary {
   background-color: #4D7298;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: none;
 }
 
@@ -117,7 +117,7 @@ header li {
 }
 
 header img {
-  margin: 23px;
+  margin: 62px;
   height: 91px;
 }
 
@@ -126,7 +126,7 @@ nav {
   width: 70%;
   text-align: right;
   vertical-align: top;
-  margin: 5vh 5%;
+  margin: 6vh 3%;
   position: fixed;
   right: 0;
 }
@@ -172,26 +172,31 @@ span.bold {
 }
 
 .title-section .left {
-  padding: 0 7%
+  padding: 0 5%
 }
 
 .title-section h1 {
-  margin-top: 12vh;
+  margin-top: 22vh;
+  font-size: 4rem;
+  text-align: left;
+
 }
 
 .title-section h2 {
-  margin-top: -1vh;
-  font-size: 3rem;
-  margin-bottom: 17vh;
+  margin-top: -2vh;
+  font-size: 2.3rem;
+  margin-bottom: 5vh;
+  text-align: left;
 }
 
 .title-section h3 {
-  font-size: 2.5rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  text-align: left;
+  margin-right: 57vw;
 }
 
-/* --Home-Page-Sections-- */
-
-/* --Carousel-Benefits-Section-- */
+/* --Carousel-Section-- */
 
 /* --Carousel-- */
 .owl-dots {
@@ -220,12 +225,13 @@ What I adjusted:
   - To change the styling of the list you have to target the ul/ol element, not the li
     since that's where the styling is originally applied. I'm sure you would have been
     able to do this when you found the class name error though!
+Thanks Nick - I know what I did now, I had renamed this section "carousel-section", but I had failed to do so on the index.html.  I have now fixed it as the next section is called "about-section" which is why I wanted to differentiate it.
 */
-.about-section ul {
+.carousel-section ul {
   list-style: none;
   text-align: center;
+  font-size: 1.8rem;
 }
-
 
 .about{
   background-image: url("../images/sancita-bale.png");
