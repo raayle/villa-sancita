@@ -55,7 +55,7 @@ footer{
 }
 
 .blurb {
-  margin: 2%;
+  margin: 5%;
 }
 
 .box-img {
@@ -164,7 +164,7 @@ span.bold {
 
 /* --Home-Above-the-fold-- */
 .title-section {
-  background-image: linear-gradient(rgba(91, 132, 79, 0.65), rgba(55, 93, 93, 0.66)), url(../images/homeimage.jpg);
+  background-image: url(../images/homeimage.jpg);
   background-size: cover;
   height: 100vh;
   padding-top: 20vh;
@@ -177,14 +177,13 @@ span.bold {
 
 .title-section h1 {
   margin-top: 22vh;
-  font-size: 4rem;
+  font-size: 3.6rem;
   text-align: left;
-
 }
 
 .title-section h2 {
   margin-top: -2vh;
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-bottom: 5vh;
   text-align: left;
 }
@@ -193,7 +192,7 @@ span.bold {
   display: inline-block;
   font-size: 1.6rem;
   text-align: left;
-  margin-right: 57vw;
+  margin-right: 50vw;
   line-height: 1.5;
   letter-spacing: 1px;
 }
@@ -237,7 +236,7 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
   font-family: 'Montserrat', sans-serif;
 }
 
-/* -----About The Villa Page------ */
+/* -----About The Villa Section------ */
 
 .about-section p {
   font-size: 1.7rem;
@@ -249,6 +248,43 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
   left:50vw;
 }
 
+/* --The Villa Page-- */
+
+.thevilla-section {
+  background-image: url(../images/villasancita.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20vh;
+  color: #e9e3d5;
+}
+
+.thevilla-section .left {
+  padding: 0 5%
+}
+
+.thevilla-section h1 {
+  margin-top: 15vh;
+  font-size: 3.4rem;
+  text-align: left;
+}
+
+.thevilla-section h3 {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-right: 50vw;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/* --Bedroom-Carousel-section-- */
+
+.bedroom-carousel-section h2 {
+  font-size: 2.3rem;
+  text-align: left;
+  margin-top: -2vh;
+  margin-bottom: 5vh;
+}
 
 /* --Footer Section-- */
 footer .row{
