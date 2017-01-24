@@ -126,7 +126,7 @@ nav {
   width: 70%;
   text-align: right;
   vertical-align: top;
-  margin: 6vh 3%;
+  margin: 6vh 5%;
   position: fixed;
   right: 0;
 }
@@ -191,9 +191,11 @@ span.bold {
 
 .title-section h3 {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: left;
   margin-right: 57vw;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 /* --Carousel-Section-- */
@@ -230,17 +232,22 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 .carousel-section ul {
   list-style: none;
   text-align: center;
+  line-height: 1.3;
   font-size: 1.8rem;
-}
-
-.about{
-  background-image: url("../images/sancita-bale.png");
-  left:50vw;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* -----About The Villa Page------ */
 
+.about-section p {
+  font-size: 1.7rem;
+  padding: 2;
+}
 
+.about {
+  background-image: url("../images/sancita-bale.png");
+  left:50vw;
+}
 
 
 /* --Footer Section-- */
