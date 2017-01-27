@@ -38,12 +38,13 @@ p {
   text-align: center;
 }
 
-img{
+img {
   max-width: 100%
 }
-footer{
+
+footer {
   background-image: url(../images/dark_embroidery.png);
-  color: white;
+  color: black;
 }
 
 .rel {
