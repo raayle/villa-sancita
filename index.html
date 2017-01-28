@@ -53,11 +53,25 @@ author:
 
 <!--Tripadvisor-section to show 3 reviews that pop up into the full reviews on a separate window (but not linked to Tripadvisor, want to keep them on the Villa Sancita site) -->
   <section class="tripadvisor-section">
+    <div class="section-title" align="center">
+      <h2>Testimonials</h2>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="four columns">
-          hey
-        </div>
+        <a href="https://www.tripadvisor.com.au/Hotel_Review-g297701-d2548786-Reviews-Villa_Sancita-Ubud_Bali.html">
+          <div class="four columns tripadvisor-branding" align="center">
+            <div class="title">
+              <h3>Villa Sancita</h3>
+            </div>
+            <div class="rating">
+              <img src="/images/tripadvisor/rating-5.png" alt="5/5"> 35 Reviews
+            </div>
+            <div class="ta-logo">
+              <img src="/images/tripadvisor/ta_logo.png" alt="Tripadvisor logo">
+            </div>
+
+          </div>
+        </a>
         <div class="eight columns">
           <div class="owl-carousel owl-theme" id="tripadvisor-carousel">
             {% for review in site.reviews %}

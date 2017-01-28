@@ -252,6 +252,28 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 }
 
 /*----- TripAdvisor section ----------*/
+.tripadvisor-section {
+  margin: 50px 0;
+}
+
+.tripadvisor-section .section-title {
+  margin-bottom: 40px;
+}
+
+.tripadvisor-branding .title h3 {
+  margin-bottom: 0;
+}
+
+.tripadvisor-branding .rating {
+  margin-bottom: 15px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+}
+
+.tripadvisor-branding:hover .title h3 {
+  color: #0091BD;
+}
+
 .tripadvisor-review {
   font-family: 'Lora', sans-serif;
 }
