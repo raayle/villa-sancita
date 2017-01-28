@@ -194,10 +194,11 @@ span.bold {
 .title-section h1 {
   font-size: 3.6rem;
   text-align: left;
+  margin-bottom: 6px;
 }
 
 .title-section h2 {
-  margin-top: -2vh;
+  /*margin-top: -2vh;*/
   font-size: 2rem;
   margin-bottom: 5vh;
   text-align: left;

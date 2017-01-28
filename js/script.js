@@ -11,7 +11,14 @@ $( document ).ready(function() {
   $(".dropdown-nav").click(function(){
     $(this).children(".dropdown-content").slideToggle();
   });
-  $(".owl-carousel").owlCarousel({
+  $("#villa-pic-carousel").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    loop: true,
+    dots: true
+  });
+  $("#tripadvisor-carousel").owlCarousel({
     items: 1,
     autoplay: true,
     autoplayTimeout: 5000,

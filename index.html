@@ -19,7 +19,7 @@ author:
   <section class="carousel-section">
     <div class="row rel">
       <div class="half-width box-img mobile-hide homeabout">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" id="villa-pic-carousel">
           <img src="/images/sancita-living.png" alt="Living Room Photo">
           <img src="/images/sancita-den.png" alt="Den Photo">
           <img src="/images/sancita-master.png" alt="Master Bedroom Photo">
@@ -53,7 +53,29 @@ author:
 
 <!--Tripadvisor-section to show 3 reviews that pop up into the full reviews on a separate window (but not linked to Tripadvisor, want to keep them on the Villa Sancita site) -->
   <section class="tripadvisor-section">
-
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          hey
+        </div>
+        <div class="eight columns">
+          <div class="owl-carousel owl-theme" id="tripadvisor-carousel">
+            {% for review in site.reviews %}
+            <div class="tripadvisor-review">
+              <div class="tripadvisor-profile">
+                <div class="profile-photo">
+                  <img src="{{review.profile-pic}}" alt="">
+                </div>
+              </div>
+              <div class="tripadvisor-review-body">
+                {{review.review}}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
   </section><!-- end tripadvisor-section -->
 
   <!-- About Villa Sancita-section -->
