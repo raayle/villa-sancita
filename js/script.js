@@ -21,8 +21,6 @@ $( document ).ready(function() {
   $("#tripadvisor-carousel").owlCarousel({
     items: 1,
     autoplay: false,
-    autoplayTimeout: 5000,
-    loop: true,
-    dots: true
+    dots: false
   });
 });

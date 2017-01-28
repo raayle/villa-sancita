@@ -274,14 +274,21 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
   color: #0091BD;
 }
 
+.tripadvisor-profile {
+  text-align: right;
+  padding-right: 30px
+}
+
 .tripadvisor-review {
   font-family: 'Lora', sans-serif;
 }
+
 .tripadvisor-review .profile-photo img {
   border-radius: 100%;
   width: 75px;
   height: 75px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .tripadvisor-review .title h6 {
@@ -294,6 +301,10 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 
 .tripadvisor-review .rating {
   margin-bottom: 8px;
+}
+
+.tripadvisor-review .review-link {
+  margin-top: -8px;
 }
 
 .column40pc {
