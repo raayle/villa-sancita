@@ -61,14 +61,31 @@ author:
         <div class="eight columns">
           <div class="owl-carousel owl-theme" id="tripadvisor-carousel">
             {% for review in site.reviews %}
-            <div class="tripadvisor-review">
-              <div class="tripadvisor-profile">
+            <div class="tripadvisor-review row">
+              <div class="tripadvisor-profile column40pc">
                 <div class="profile-photo">
-                  <img src="{{review.profile-pic}}" alt="">
+                  <img src="/images/tripadvisor/{{review.profile-pic}}" alt="">
+                </div>
+                <div class="username">
+                  {{review.username}}
+                </div>
+                <div class="location">
+                  {{review.location}}
+                </div>
+                <div class="number-reviews">
+                  {{review.number-reviews}} reviews
                 </div>
               </div>
-              <div class="tripadvisor-review-body">
-                {{review.review}}
+              <div class="tripadvisor-body column60pc">
+                <div class="title">
+                  <h6><em>"{{review.title}}"</em></h6>
+                </div>
+                <div class="rating">
+                  <img src="/images/tripadvisor/rating-5.png" alt="5/5">
+                </div>
+                <div class="review">
+                  {{review.review}}
+                </div>
               </div>
             </div>
             {% endfor %}

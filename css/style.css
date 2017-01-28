@@ -251,6 +251,40 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
   font-family: 'Montserrat', sans-serif;
 }
 
+/*----- TripAdvisor section ----------*/
+.tripadvisor-review {
+  font-family: 'Lora', sans-serif;
+}
+.tripadvisor-review .profile-photo img {
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  margin-bottom: 5px
+}
+
+.tripadvisor-review .title h6 {
+  margin-bottom: 2px;
+}
+
+.owl-carousel .owl-item .rating img {
+  width: initial;
+}
+
+.tripadvisor-review .rating {
+  margin-bottom: 8px;
+}
+
+.column40pc {
+  width: 40%;
+  float: left;
+}
+
+.column60pc {
+  width: 60%;
+  float: left;
+}
+
+
 /* -----About The Villa Section------ */
 
 .about-section p {
