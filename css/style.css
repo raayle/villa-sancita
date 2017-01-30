@@ -86,7 +86,8 @@ footer {
 /* ------ Header Section ------ */
 header {
   clear: both;
-  position: fixed;
+  /* position: fixed removed for now */
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 99999;
@@ -128,7 +129,7 @@ nav {
   text-align: right;
   vertical-align: top;
   margin: 6vh 5%;
-  position: fixed;
+  /*position: fixed; removed for now */
   right: 0;
 }
 
