@@ -23,6 +23,11 @@ $( document ).ready(function() {
   $("#tripadvisor-carousel").owlCarousel({
     items: 1,
     autoplay: false,
-    dots: false
+    dots: false,
+    nav: true,
+    navText: [
+      "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-left.png'></div>",
+      "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"
+    ]
   });
 });
