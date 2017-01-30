@@ -179,7 +179,6 @@ span.bold {
   background-image: url(../images/homeimage.jpg);
   background-size: cover;
   height: 100vh;
-  padding-top: 20vh;
   color: #e9e3d5;
 }
 
@@ -320,9 +319,9 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
   padding: 2;
 }
 
-.about {
+.about-section .half-width.box-img.about {
   background-image: url("../images/sancita-bale.png");
-  left:50vw;
+  left: 50%;
 }
 
 /* --The Villa Page-- */
@@ -389,6 +388,7 @@ footer .two.columns.fa{
 /*---Tablet Styles----*/
 
 @media screen and (max-width:800px) {
+  /* Universal */
   .mobile-show {
     display: inline-block;
   }
@@ -397,18 +397,6 @@ footer .two.columns.fa{
     display: none;
   }
 
-  header nav {
-    text-align:center;
-    width: 100%;
-  }
-
-  header img {
-    text-align:center;
-  }
-
-  .intro {
-    min-height: 50vh;
-  }
 
   /* Collapse columns */
 
@@ -420,23 +408,40 @@ footer .two.columns.fa{
     width: 100%
   }
 
-}
+  /* Header */
+  header nav {
+    text-align:center;
+    width: 100%;
+  }
 
-/*---Small Tablet or Large Phone Styles----*/
+  header img {
+    text-align:center;
+    margin: 15px 0 0 15px;
+    height: 85px;
+  }
 
-@media screen and (max-width:800px) {
+  .title-section {
+    padding-top: 18vh;
+  }
+
   .title-section .left {
     width: 96%;
     margin-left: 2%;
-    margin-right: 2%;
+    padding: 15px;
+  }
+
+  .intro {
+    min-height: 50vh;
   }
 }
 
-@media screen and (max-width:1000px) {
-  .title-section .left {
-    width: 60%;
+@media screen and (max-width: 374px) {
+  /* So that the hero text doesn't clip on tiny screens */
+  .title-section {
+    height: 105vh;
   }
 }
+/*---Small Tablet or Large Phone Styles----*/
 
 @media screen and (min-width: 801px) {
   .title-section .left {
