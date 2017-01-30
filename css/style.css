@@ -124,13 +124,11 @@ header img {
 }
 
 nav {
-  display: inline-block;
-  width: 70%;
-  text-align: right;
+  /*width: 70%;*/
   vertical-align: top;
-  margin: 6vh 5%;
-  /*position: fixed; removed for now */
-  right: 0;
+  position: absolute; /*fixed removed for now */
+  top: 62px;
+  right: 62px;
 }
 
 nav.mobile-hide ul {
