@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
   $(window).on("scroll", function() {
       if($(window).scrollTop() > 50) {
-          $("header").addClass("active-nav");
+          // $("header").addClass("active-nav");
       } else {
           //remove the background property so it comes transparent again (defined in your css)
          $("header").removeClass("active-nav");
@@ -13,7 +13,7 @@ $( document ).ready(function() {
   });
   $("#villa-pic-carousel").owlCarousel({
     items: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplayTimeout: 5000,
     loop: true,
     dots: true
