@@ -246,7 +246,7 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 
 /*----- TripAdvisor section ----------*/
 .tripadvisor-section {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .tripadvisor-section .section-title {
@@ -483,6 +483,29 @@ footer .two.columns.fa{
 
   .intro {
     min-height: 50vh;
+  }
+
+  /* Tripadvisor */
+  .column40pc, .column60pc { /* collapse columns */
+    width: 100%;
+  }
+
+  .owl-prev, .owl-next {
+    top: 10%;
+  }
+
+  .owl-prev {
+    left: -10px;
+  }
+
+  .owl-next {
+    right: -10px;
+  }
+
+  .tripadvisor-profile {
+    text-align: center;
+    padding-right: 0;
+    margin: 35px 0 15px;
   }
 }
 
