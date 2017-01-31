@@ -15,7 +15,7 @@ $( document ).ready(function() {
   });
   $("#villa-pic-carousel").owlCarousel({
     items: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplayTimeout: 5000,
     loop: true,
     dots: true
