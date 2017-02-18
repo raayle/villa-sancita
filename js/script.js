@@ -30,4 +30,19 @@ $( document ).ready(function() {
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"
     ]
   });
+  $("#1-2-br").click(function() {
+    openBedrooms(".1-2-br-rates");
+    $(this).addClass("active");
+  }).click();
+  $("#3-br").click(function() {
+    openBedrooms(".3-br-rates");
+    $(this).addClass("active");
+  });
+
+  function openBedrooms(target) {
+    $(".tab").removeClass("active");
+    $(".tabcontent").css("display", "none");
+
+    $(target).css("display", "block");
+  }
 });
