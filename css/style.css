@@ -443,7 +443,8 @@ footer .two.columns.fa{
 section.rates-hero {
   position: relative;
   height: 300px;
-  background-image: url(../images/villasancita.jpg);
+  /*background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(../images/rates-bg.jpg);*/
+  background-image: url(../images/rates-bg.jpg);
   background-size: cover;
 }
 
@@ -453,6 +454,7 @@ section.rates-hero {
   top: 48%;
   left: 0;
   right: 0;
+  color: #FFF;
 }
 
 /*** Rates table ***/
@@ -486,7 +488,7 @@ div.tab:hover {
 }
 
 /* Create an active/current tablink class */
-div.tab:focus, .active {
+div.tab:focus, div.tab.active {
     background-color: #ccc;
 }
 
