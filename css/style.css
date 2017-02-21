@@ -42,11 +42,6 @@ img {
   max-width: 100%
 }
 
-footer {
-  background-image: url(../images/dark_embroidery.png);
-  color: black;
-}
-
 .rel {
   position: relative;
 }
@@ -414,16 +409,19 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 
 /* --Footer Section-- */
 footer .row{
-    border-top: 2px solid #7D6D61;
     padding: 5%
 }
+
 
 footer {
   padding: 1% 4%;
   clear: both;
+  color: #FFFFFF;
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/dark_embroidery.png);
+
 }
 
-.row .five.columns p{
+footer .row .five.columns p{
   margin-bottom: 0;
 }
 
@@ -492,6 +490,17 @@ div.tab:focus, div.tab.active {
     background-color: #ccc;
 }
 
+.rates-tables .tabs .booknow-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.rates .booknow-button.mobile-show,
+.rates .booknow-button.mobile-show a {
+  width: 100%;
+}
+
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -500,6 +509,11 @@ div.tab:focus, div.tab.active {
     border-top: none;
 }
 
+/*** Discounts section ***/
+#rates-page section.discounts {
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255, 255, 255, 0.6)), url(../images/ricepaper.png);
+  padding: 30px 0;
+}
 /*---Tablet Styles----*/
 
 @media screen and (max-width:800px) {
