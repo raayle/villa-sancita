@@ -435,7 +435,31 @@ footer .two.columns.fa{
   border-radius: 10%;
 }
 
-/* Rates Page */
+/* ----- Rates Page ----- */
+#rates-page section {
+  margin-bottom: 50px;
+}
+
+section.rates-hero {
+  position: relative;
+  height: 300px;
+  background-image: url(../images/villasancita.jpg);
+  background-size: cover;
+}
+
+.rates-hero .hero-title {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  left: 0;
+  right: 0;
+}
+
+/*** Rates table ***/
+.rates-tables {
+  max-width: 710px;
+}
+
 /* Style the tab */
 div.tabs {
     overflow: hidden;
