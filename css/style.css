@@ -78,15 +78,31 @@ img {
   display: none;
 }
 
+.light-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.light-bg.active {
+  background-color: rgba(255, 255, 255, 1);;
+}
+
 /* ------ Header Section ------ */
 header {
   /* position: fixed removed for now */
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 99999;
   transition: 1s;
   background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 3px solid rgba(0,0,0,0);
+}
+
+/* Used for the header opacity transition, added in script.js */
+.active-nav {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-bottom: 3px solid #7D6D61;
+  transition: 1s;
 }
 
 header img.logo {
@@ -164,20 +180,6 @@ span.bold {
   }
 }
 
-/* Used for the header opacity transition, added in script.js */
-.active-nav {
-  border-bottom: 2px solid #7D6D61;
-  background-color: white;
-  transition: 0.5s;
-}
-
-.light-bg {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.light-bg.active {
-  background-color: rgba(255, 255, 255, 1);;
-}
 /* -----Home Page------ */
 
 /* --Home-Above-the-fold-- */
