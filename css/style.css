@@ -105,6 +105,11 @@ header {
   transition: 1s;
 }
 
+header .header-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 header img.logo {
   height: 50px;
   margin: 13px 0 13px 20px;
