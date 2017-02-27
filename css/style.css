@@ -80,13 +80,18 @@ img {
 
 /* ------ Header Section ------ */
 header {
-  clear: both;
   /* position: fixed removed for now */
   position: absolute;
   width: 100%;
   top: 0;
   z-index: 99999;
   transition: 1s;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header img.logo {
+  height: 50px;
+  margin: 13px 0 13px 20px;
 }
 
 header li {
@@ -96,6 +101,67 @@ header li {
   display: inline-block;
   margin: 0 8px;
   color: #DDDDDD;
+}
+
+
+nav {
+  float: right;
+  margin: 22px 0 4px 0;
+  padding-right: 24px;;
+}
+
+
+
+nav.mobile-hide ul {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+nav li a:hover {
+  background-color: #70566D;
+  color: white;
+  border-radius: 10%;
+}
+
+.nav-stacked {
+  display: inline-block;
+}
+
+.dropdown-nav {
+  position:absolute;
+  right: 15px;
+  top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dropdown-content li {
+  display: block;
+}
+
+.dropdown-nav a{
+  text-align: right;
+  display: block
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+/* Nav for devices 800px to 902px wide */
+@media screen and (max-width: 910px) {
+  header li {
+    margin: 0 3px;
+  }
+
+  header img.logo {
+    height: 40px;
+    margin: 13px 0 5px 10px;
+  }
+
+  nav {
+    margin: 22px 0 4px 0;
+    padding-right: 13px;
+  }
 }
 
 /* Used for the header opacity transition, added in script.js */
@@ -112,60 +178,6 @@ header li {
 .light-bg.active {
   background-color: rgba(255, 255, 255, 1);;
 }
-
-header img {
-  margin: 62px;
-  height: 91px;
-}
-
-nav {
-  /*width: 70%;*/
-  vertical-align: top;
-  position: absolute; /*fixed removed for now */
-  top: 62px;
-  right: 62px;
-}
-
-nav.mobile-hide ul {
-  display: inline-block;
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 2px;
-}
-
-nav li a:hover {
-  background-color: #70566D;
-  color: white;
-  border-radius: 10%;
-}
-
-header nav.mobile-hide ul {
-  padding: 6px 5px;
-  margin-right: 10px;
-}
-
-.nav-stacked {
-  display: inline-block;
-}
-
-.dropdown-nav {
-  position:absolute;
-  right: 2vw;
-  top: 2vh;
-}
-
-.dropdown-content li {
-  display: block;
-}
-
-.dropdown-nav a{
-  text-align: right;
-  display: block
-}
-
-span.bold {
-  font-weight: bold;
-}
-
 /* -----Home Page------ */
 
 /* --Home-Above-the-fold-- */
