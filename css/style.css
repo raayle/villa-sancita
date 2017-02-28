@@ -530,11 +530,22 @@ section.distances-map {
   height: 450px;
 }
 
+.distances-container {
+  text-align: center;
+}
+
+.distances-container table {
+  margin: 0 auto;
+}
+
 .distances-container table td {
   border-bottom: 0 solid black;
   padding-top: 2px;
   padding-bottom: 2px;
+}
 
+.distances-container .distances-title {
+  margin-top: 50px;
 }
 
 .map-container iframe {
