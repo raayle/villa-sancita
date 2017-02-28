@@ -457,15 +457,19 @@ footer .two.columns.fa{
   margin-bottom: 50px;
 }
 
-section.rates-hero {
+.hero-container {
   position: relative;
   height: 300px;
   /*background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(../images/rates-bg.jpg);*/
-  background-image: url(../images/rates-bg.jpg);
+  background-color: #467903;
   background-size: cover;
 }
 
-.rates-hero .hero-title {
+section.rates-hero {
+  background-image: url(../images/rates-bg.jpg);
+}
+
+.hero-container .hero-title {
   position: absolute;
   text-align: center;
   top: 48%;
