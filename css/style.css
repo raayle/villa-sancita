@@ -237,19 +237,6 @@ span.bold {
   padding: 4%;
 }
 
-/* Fixed! Here's what you originally had:
- .home-section li {
-    list-style: none;
-    text-align: center;
-  }
-What I adjusted:
-  - Couldn't find .home-section on the index.html page, it looks like the target text
-    was inside .about-section
-  - To change the styling of the list you have to target the ul/ol element, not the li
-    since that's where the styling is originally applied. I'm sure you would have been
-    able to do this when you found the class name error though!
-Thanks Nick - I know what I did now, I had renamed this section "carousel-section", but I had failed to do so on the index.html.  I have now fixed it as the next section is called "about-section" which is why I wanted to differentiate it.
-*/
 .carousel-section ul {
   list-style: none;
   text-align: center;
@@ -374,7 +361,7 @@ Thanks Nick - I know what I did now, I had renamed this section "carousel-sectio
 
 .owl-theme .owl-controls .owl-buttons div:hover {
   color:#2a6496;
-  }
+}
 
 /* -----About The Villa Section------ */
 
@@ -537,6 +524,24 @@ div.tab:focus, div.tab.active {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.5)), url(../images/ricepaper.png);
   padding: 30px 0;
 }
+
+/**** Location and Services ****/
+section.distances-map {
+  height: 450px;
+}
+
+.distances-container table td {
+  border-bottom: 0 solid black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+}
+
+.map-container iframe {
+  width: 100%;
+}
+
+
 /*---Tablet Styles----*/
 
 @media screen and (max-width:800px) {
