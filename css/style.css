@@ -58,18 +58,13 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  left:0;
-  top:0;
 }
 
-.box-img.right {
+/*.box-img.right {
   margin-left: 50vw;
-}
+}*/
 
-.row .half-width.left {
+.row .half-width {
   width: 50%;
   float: left;
 }
@@ -80,6 +75,10 @@ img {
 
 .light-bg {
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.light-texture {
+  background-image: url('../images/ricepaper-light.png')
 }
 
 .light-bg.active {
@@ -226,11 +225,6 @@ span.bold {
   position: absolute;
   right: 10px;
   bottom: 46px;
-}
-
-.row .half-width {
-  width: 50%;
-  float: right;
 }
 
 .row .half-width .blurb {
@@ -521,7 +515,6 @@ div.tab:focus, div.tab.active {
 
 /*** Discounts section ***/
 #rates-page section.discounts {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.5)), url(../images/ricepaper.png);
   padding: 30px 0;
 }
 
@@ -532,7 +525,7 @@ div.tab:focus, div.tab.active {
   }
 }
 
-section.distances-map {
+section.distances-map, section.distances-map div.half-width {
   height: 450px;
 }
 
