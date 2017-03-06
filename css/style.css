@@ -441,7 +441,6 @@ footer .two.columns.fa{
 .hero-container {
   position: relative;
   height: 300px;
-  /*background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(../images/rates-bg.jpg);*/
   background-color: #467903;
   background-size: cover;
 }
@@ -518,7 +517,11 @@ div.tab:focus, div.tab.active {
   padding: 30px 0;
 }
 
-/**** Location and Services ****/
+/* #### Location and Services #### */
+section.hero-container.location-hero {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('../images/location-bg.jpg');
+}
+
 @media screen and (min-width: 800px) {
   section.description-section {
     padding-top: 25px;
@@ -541,6 +544,12 @@ section.distances-map, section.distances-map div.half-width {
   border-bottom: 0 solid black;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  td {
+    padding: 12px 4px;
+  }
 }
 
 .distances-container .distances-title {
