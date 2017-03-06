@@ -440,7 +440,7 @@ footer .two.columns.fa{
 }
 
 /* ----- Rates Page ----- */
-#rates-page section {
+#rates-page section, #location-page section {
   margin-bottom: 50px;
 }
 
@@ -526,6 +526,12 @@ div.tab:focus, div.tab.active {
 }
 
 /**** Location and Services ****/
+@media screen and (min-width: 800px) {
+  section.description-section {
+    padding-top: 25px;
+  }
+}
+
 section.distances-map {
   height: 450px;
 }
