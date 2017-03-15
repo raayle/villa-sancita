@@ -1,0 +1,27 @@
+---
+layout: default
+title: Location and services
+description: Location of and services provided by Villa Sancita in Ubud, Bali
+author:
+bodyId: location-page
+---
+<!-- The Villa-Above-the-fold-section -->
+<section class="hero-container location-hero">
+  <div class="hero-title">
+    <h1>Bookings</h1>
+  </div>
+</section>
+
+<section class="description-section">
+  <script type="text/javascript" src="//nickssandbox.checkfront.com/lib/interface--31.js"></script>
+  <!-- CHECKFRONT BOOKING PLUGIN v23-->
+  <div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//nickssandbox.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+  <script>
+  new CHECKFRONT.Widget ({
+  host: 'nickssandbox.checkfront.com',
+  target: 'CHECKFRONT_WIDGET_01',
+  provider: 'droplet'
+  }).render();
+  </script>
+  <noscript><a href="https://nickssandbox.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+</section>
