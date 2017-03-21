@@ -12,6 +12,8 @@ $( document ).ready(function() {
   $(".dropdown-nav").click(function(){
     $(this).children(".dropdown-content").slideToggle();
   });
+
+  // *** Landing page ***
   $("#villa-pic-carousel").owlCarousel({
     items: 1,
     autoplay: true,
@@ -29,6 +31,8 @@ $( document ).ready(function() {
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"
     ]
   });
+
+  // *** Rates page ***
   $("#1-2-br").click(function() {
     openBedrooms(".1-2-br-rates");
     $(this).addClass("active");
@@ -44,4 +48,13 @@ $( document ).ready(function() {
 
     $(target).css("display", "block");
   }
+
+  // *** Gallery ***
+  $('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    gutter: '.gutter-sizer',
+    percentPosition: true,
+  });
 });

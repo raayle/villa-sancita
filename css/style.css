@@ -561,6 +561,21 @@ section.distances-map, section.distances-map div.half-width {
 }
 
 
+/* ---- Gallery page ---- */
+#gallery-page section.hero-container {
+  margin-bottom: 50px;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 32%;
+  /*margin-bottom: 0.5%;*/
+}
+
+.gutter-sizer {
+  width: 1%;
+}
+
 /*---Tablet Styles----*/
 
 @media screen and (max-width:800px) {
