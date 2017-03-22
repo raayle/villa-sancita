@@ -50,11 +50,15 @@ $( document ).ready(function() {
   }
 
   // *** Gallery ***
-  $('.grid').masonry({
+  var $grid = $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
     gutter: '.gutter-sizer',
     percentPosition: true,
+  });
+
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
   });
 });

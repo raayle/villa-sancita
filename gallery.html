@@ -39,7 +39,7 @@ images:
       <div class="gutter-sizer"></div>
       {% for image in page.images %}
         <div class="grid-item">
-          <a href="{{ image.image_path }}" data-lightbox="gallery">
+          <a href="{{ image.image_path }}" data-lightbox="gallery" data-title="{{ image.title }}">
             <img src="{{ image.image_thumb_path }}" alt="{{ image.title }}" />
           </a>
         </div>
