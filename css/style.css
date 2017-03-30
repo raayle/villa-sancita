@@ -434,7 +434,9 @@ footer .two.columns.fa{
 }
 
 /* ----- Rates Page ----- */
-#rates-page section, #location-page section {
+#rates-page section,
+#location-page section,
+#contact-page section {
   margin-bottom: 50px;
 }
 
@@ -584,8 +586,32 @@ section.distances-map, section.distances-map div.half-width {
 .lb-details {
   color: #222;
 }
-/*---Tablet Styles----*/
 
+/* ------ Contact us page ------ */
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+}
+
+.contact-section form textarea {
+  height: 300px;
+}
+
+.contact-section form input[disabled="true"] {
+  background-color: #DDDDDD;
+}
+
+.contact-section input.form-success {
+  background-color: #aee3a2;
+}
+
+/*---Tablet Styles----*/
 @media screen and (max-width:800px) {
   /* Universal */
   .mobile-show {
