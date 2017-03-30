@@ -603,11 +603,11 @@ section.distances-map, section.distances-map div.half-width {
   height: 300px;
 }
 
-.contact-section form input[disabled="true"] {
+.contact-section form input[disabled="disabled"] {
   background-color: #DDDDDD;
 }
 
-.contact-section input.form-success {
+.contact-section #contact-form input.form-success {
   background-color: #aee3a2;
 }
 
