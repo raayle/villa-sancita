@@ -436,8 +436,9 @@ footer .two.columns.fa{
 /* ----- Rates Page ----- */
 #rates-page section,
 #location-page section,
+#gallery-page section,
 #contact-page section {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .hero-container {
@@ -564,9 +565,6 @@ section.distances-map, section.distances-map div.half-width {
 
 
 /* ---- Gallery page ---- */
-#gallery-page section.hero-container {
-  margin-bottom: 50px;
-}
 
 .grid-sizer,
 .grid-item {
@@ -576,6 +574,18 @@ section.distances-map, section.distances-map div.half-width {
 
 .gutter-sizer {
   width: 1%;
+}
+
+@media screen and (max-width: 799px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+    /*margin-bottom: 0.5%;*/
+  }
+
+  .gutter-sizer {
+    width: 0;
+  }
 }
 
 /* Lightbox stuff */
@@ -592,6 +602,11 @@ section.distances-map, section.distances-map div.half-width {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.contact-section form p {
+  text-align: left;
+  margin-bottom: 50px;
 }
 
 .contact-section form input,
