@@ -54,11 +54,11 @@ img {
   margin: 5%;
 }
 
-.box-img {
+/* .box-img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 /*.box-img.right {
   margin-left: 50vw;
@@ -93,14 +93,14 @@ header {
   top: 0;
   z-index: 999;
   transition: 1s;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(11,38,45,.5);
   border-bottom: 3px solid rgba(0,0,0,0);
 }
 
 /* Used for the header opacity transition, added in script.js */
 .active-nav {
   background-color: rgba(0, 0, 0, 0.85);
-  border-bottom: 3px solid #7D6D61;
+  border-bottom: 3px solid rgba(0,0,0,0);
   transition: 1s;
 }
 
@@ -219,7 +219,7 @@ span.bold {
 }
 
 .title-section .left {
-  background-color: rgba(0,0,0,0.5)
+  background-color: rgba(11,38,45,0.5)
 }
 
 .title-section h1 {
@@ -249,10 +249,6 @@ span.bold {
   position: absolute;
   right: 10px;
   bottom: 46px;
-}
-
-.row .half-width .blurb {
-  padding: 4%;
 }
 
 .carousel-section ul {
@@ -388,27 +384,24 @@ span.bold {
   padding: 2;
 }
 
-.about-section .half-width.box-img.about {
-  background-image: url("../images/sancita-bale.png");
-  left: 50%;
+.about-section{
+  background-image: url("../images/villa-sancita-whole-villa.jpg");
 }
 
 /* --The Villa Page-- */
 
 .thevilla-section {
-  background-image: url(../images/villasancita.jpg);
+  background-image: url("../images/villa-sancita-the-villa.jpg");
   background-size: cover;
   height: 100vh;
-  padding-top: 20vh;
   color: #e9e3d5;
 }
 
 .thevilla-section .left {
-  padding: 0 5%
-}
+    background-color: rgba(11,38,45,0.5)
+  }
 
 .thevilla-section h1 {
-  margin-top: 15vh;
   font-size: 3.4rem;
   text-align: left;
 }
@@ -651,6 +644,7 @@ section.distances-map, section.distances-map div.half-width {
 }
 
 /*---Tablet Styles----*/
+
 @media screen and (max-width:800px) {
   /* Universal */
   .mobile-show {
