@@ -384,8 +384,9 @@ span.bold {
   padding: 2;
 }
 
-.about-section{
+.about-section {
   background-image: url("../images/villa-sancita-whole-villa.jpg");
+  padding: 30px 10px;
 }
 
 /* --The Villa Page-- */
