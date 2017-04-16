@@ -395,10 +395,10 @@ span.bold {
   background-image: url("../images/villa-sancita-the-villa.jpg");
 }
 
-/*.thevilla-section h1 {
-  font-size: 3.4rem;
-  text-align: left;
-}*/
+.bedroom-carousel-section .blurb {
+  text-align: center;
+}
+
 
 /* --Bedroom-Carousel-section-- */
 
