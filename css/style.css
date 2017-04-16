@@ -248,7 +248,7 @@ span.bold {
 .owl-dots {
   position: absolute;
   right: 10px;
-  bottom: 46px;
+  bottom: 10px;
 }
 
 .carousel-section ul {
@@ -257,6 +257,29 @@ span.bold {
   line-height: 1.3;
   font-size: 1.8rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-hide#home-carousel {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1160px) {
+  .blurb h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  }
+  .blurb ul li {
+    margin-bottom: 0.9rem;
+  }
+
+  .blurb ul {
+    margin-bottom: 0;
+  }
+  .carousel-section ul {
+    line-height: 1.15;
+  }
 }
 
 /*----- TripAdvisor section ----------*/
@@ -654,7 +677,6 @@ section.distances-map, section.distances-map div.half-width {
   .mobile-hide {
     display: none;
   }
-
 
   /* Collapse columns */
 

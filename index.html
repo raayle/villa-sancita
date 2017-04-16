@@ -15,8 +15,21 @@ author:
     </div>
   </section><!-- end title-section -->
 
+<!-- Note to Frances: To get this to display in 2 columns, first I moved the bottom mobile-show section out of the grid because it doesn't need to be in there and might (most likely!) was messing with the formatting, since it wasn't a column.
+Then, all you need to do is put -2- after grid in the class of the containing div, for 'grid-2-noGutter-equalHeight'. This means 'make a grid with 2 columns with no gutters, and each column being equal height.' Alternatively, you can also not add -2- and instead turn .col into .col-6, which specifies the columns to be 6-columns wide.
+The additional -middle- part in the class name then vertically centres the Book Directly With Us text with the carousel to the left. -->
+
 <!-- Benefits and Carousel section-title-->
-  <section class="carousel-section grid-noGutter-equalHeight_sm-1">
+  <section class="carousel-section">
+    <div class="grid-2_sm-1-middle-noGutter-equalHeight">
+      <div class="col back-img mobile-hide homeabout" id="home-carousel">
+        <div class="owl-carousel owl-theme" id="villa-pic-carousel">
+          <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
+          <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
+          <img src="/images/villa-sancita-pool.jpg" alt="Pool Photo">
+          <img src="/images/villa-sancita-master.jpg" alt="Master Bedroom Photo">
+        </div>
+      </div>
       <div class="col">
         <div class="blurb">
           <h3 class="center">Book Directly With Us</h3>
@@ -34,16 +47,8 @@ author:
       </div>
 
     <!-- carousel-section -->
-      <!-- <div class="col back-img mobile-hide homeabout">
-        <div class="owl-carousel owl-theme" id="villa-pic-carousel">
-          <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
-          <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
-          <img src="/images/villa-sancita-pool.jpg" alt="Pool Photo">
-          <img src="/images/villa-sancita-master.jpg" alt="Master Bedroom Photo">
-        </div>
-      </div> -->
     <!--Carousel of 4 Images - Bale, Den, Pool, Master Bedroom -->
-
+  </div>
       <div class="mobile-show">
         <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
         <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
