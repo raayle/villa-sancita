@@ -391,30 +391,14 @@ span.bold {
 
 /* --The Villa Page-- */
 
-.thevilla-section {
+.title-section.thevilla-section {
   background-image: url("../images/villa-sancita-the-villa.jpg");
-  background-size: cover;
-  height: 100vh;
-  color: #e9e3d5;
 }
 
-.thevilla-section .left {
-    background-color: rgba(11,38,45,0.5)
-  }
-
-.thevilla-section h1 {
+/*.thevilla-section h1 {
   font-size: 3.4rem;
   text-align: left;
-}
-
-.thevilla-section h3 {
-  display: inline-block;
-  font-size: 1.6rem;
-  text-align: left;
-  margin-right: 50vw;
-  line-height: 1.5;
-  letter-spacing: 1px;
-}
+}*/
 
 /* --Bedroom-Carousel-section-- */
 
