@@ -713,11 +713,11 @@ section.distances-map, section.distances-map div.half-width {
 @media screen and (min-width: 801px) {
   .title-section .left {
     position: absolute;
-    bottom: 5vh;
-    left: 5%;
-    width: 35%;
+    bottom: 0vh;
+    left: 2%;
+    width: 40%;
     min-width: 512px;
-    padding: 30px 40px;
+    padding: 10px 30px;
   }
 }
 
