@@ -430,30 +430,30 @@ span.bold {
   letter-spacing: 1px;
 }
 
+/* --services-section-- */
 
-/* --Footer Section-- */
-footer .row{
-    padding: 5%
+.title-section.services-section .left {
+  background-color: rgba(11,38,45,0.5)
 }
 
-footer {
-  padding: 1% 4%;
-  clear: both;
-  color: #FFFFFF;
-  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/dark_embroidery.png);
+.title-section.services-section {
+  background-image: url("../images/villa-sancita-services.jpg");
 }
 
-footer .row .five.columns p{
-  margin-bottom: 0;
+.title-section.services-section h1 {
+  font-size: 3.6rem;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
-footer .two.columns.fa{
-  color: blue;
-  font-size: 5rem;
-  background-color: white;
-  padding: 0 3px;
-  border-radius: 10%;
+.title-section.services-section h3 {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
+
 
 /* ----- Rates Page ----- */
 #rates-page section,
@@ -647,6 +647,31 @@ section.distances-map, section.distances-map div.half-width {
 .contact-section #contact-form input.form-success {
   background-color: #aee3a2;
 }
+
+/* --Footer Section-- */
+footer .row{
+    padding: 5%
+}
+
+footer {
+  padding: 1% 4%;
+  clear: both;
+  color: #FFFFFF;
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/dark_embroidery.png);
+}
+
+footer .row .five.columns p{
+  margin-bottom: 0;
+}
+
+footer .two.columns.fa{
+  color: blue;
+  font-size: 5rem;
+  background-color: white;
+  padding: 0 3px;
+  border-radius: 10%;
+}
+
 
 /*---Tablet Styles----*/
 
