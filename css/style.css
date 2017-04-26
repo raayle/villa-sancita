@@ -69,6 +69,11 @@ img {
   float: left;
 }
 
+.right {
+  width: 35%;
+  float: right;
+}
+
 .mobile-show {
   display: none;
 }
@@ -123,14 +128,11 @@ header li {
   color: #DDDDDD;
 }
 
-
 nav {
   float: right;
   margin: 22px 0 4px 0;
   padding-right: 24px;;
 }
-
-
 
 .header-container.mobile-hide nav ul {
   display: inline-block;
@@ -384,11 +386,6 @@ span.bold {
   padding: 2;
 }
 
-.about-section {
-  background-image: url("../images/villa-sancita-whole-villa.jpg");
-  padding: 30px 10px;
-}
-
 /* --The Villa Page-- */
 
 .title-section.thevilla-section {
@@ -409,18 +406,41 @@ span.bold {
   margin-bottom: 5vh;
 }
 
+/* --location-section-- */
+
+.title-section.location-section .right {
+  background-color: rgba(11,38,45,0.5)
+}
+
+.title-section.location-section {
+  background-image: url("../images/villa-sancita-location.jpg");
+}
+
+.title-section.location-section h1 {
+  font-size: 3.6rem;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.title-section.location-section h3 {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+
 /* --Footer Section-- */
 footer .row{
     padding: 5%
 }
-
 
 footer {
   padding: 1% 4%;
   clear: both;
   color: #FFFFFF;
   background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/dark_embroidery.png);
-
 }
 
 footer .row .five.columns p{
