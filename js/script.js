@@ -15,7 +15,7 @@ $( document ).ready(function() {
 
   // *** Landing page ***
   $("#villa-pic-carousel").owlCarousel({
-    items: 1,
+    items: 2,
     autoplay: true,
     autoplayTimeout: 5000,
     loop: true,
