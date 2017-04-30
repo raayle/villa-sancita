@@ -728,6 +728,10 @@ footer .two.columns.fa{
   }
 
   /* Tripadvisor */
+  #tripadvisor-carousel {
+    margin-left: 0;
+  }
+
   .column40pc, .column60pc { /* collapse columns */
     width: 100%;
   }
