@@ -256,7 +256,7 @@ span.bold {
 .owl-dots {
   position: absolute;
   right: 10px;
-  bottom: 46px;
+  bottom: 10px;
 }
 
 .carousel-section ul {
@@ -270,7 +270,7 @@ span.bold {
 /*----- TripAdvisor section ----------*/
 /* Book directly with us */
 .tripadvisor-section .blurb-container {
-  border: 1px solid black;
+  border: 2px solid #839a90;
   padding: 10px;
   max-width: 350px;
   margin: 0 auto;

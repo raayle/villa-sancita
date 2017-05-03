@@ -15,11 +15,18 @@ $( document ).ready(function() {
 
   // *** Landing page ***
   $("#villa-pic-carousel").owlCarousel({
-    items: 2,
     autoplay: true,
     autoplayTimeout: 5000,
     loop: true,
-    dots: true
+    dots: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      800: {
+        items: 2
+      }
+    }
   });
   $("#tripadvisor-carousel").owlCarousel({
     items: 1,
