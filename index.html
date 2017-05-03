@@ -15,115 +15,114 @@ author: Frances Tse
     </div>
   </section><!-- end title-section -->
 
-<!-- Benefits and Carousel section-title-->
-  <section class="carousel-section">
-    <!-- carousel-section -->
-      <div class="back-img mobile-hide homeabout">
-        <div class="owl-carousel owl-theme" id="villa-pic-carousel">
+  <!-- Benefits and Carousel section-title-->
+    <section class="carousel-section">
+      <!-- carousel-section -->
+        <div class="back-img mobile-hide homeabout">
+          <div class="owl-carousel owl-theme" id="villa-pic-carousel">
+            <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
+            <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
+            <img src="/images/villa-sancita-pool.jpg" alt="Pool Photo">
+            <img src="/images/villa-sancita-master.jpg" alt="Master Bedroom Photo">
+          </div>
+        </div>
+      <!--Carousel of 4 Images - Bale, Den, Pool, Master Bedroom -->
+
+        <div class="mobile-show">
           <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
           <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
           <img src="/images/villa-sancita-pool.jpg" alt="Pool Photo">
           <img src="/images/villa-sancita-master.jpg" alt="Master Bedroom Photo">
         </div>
-      </div>
-    <!--Carousel of 4 Images - Bale, Den, Pool, Master Bedroom -->
+    </section><!-- end benefits-carousel-section-->
 
-      <div class="mobile-show">
-        <img src="/images/villa-sancita-bale.jpg" alt="Bale Photo">
-        <img src="/images/villa-sancita-den.jpg" alt="Den Photo">
-        <img src="/images/villa-sancita-pool.jpg" alt="Pool Photo">
-        <img src="/images/villa-sancita-master.jpg" alt="Master Bedroom Photo">
-      </div>
-  </section><!-- end benefits-carousel-section-->
-
-<!--Tripadvisor-section to show 3 reviews that pop up into the full reviews on a separate window (but not linked to Tripadvisor, want to keep them on the Villa Sancita site) -->
-  <section class="tripadvisor-section">
-    <div class="grid-equalHeight no-margin">
-      <div class="col-4_sm-12">
-        <div class="blurb-container-container">
-          <div class="blurb-container">
-            <h4 class="center">Book Directly With Us</h4>
-            <ul>
-              <li>Best Price Guaranteed</li>
-              <li>Breakfast Included</li>
-              <li>Free WiFi</li>
-              <li>Daily Afternoon Tea</li>
-              <li>Private Villa Staff</li>
-            </ul>
-            <div class="center">
-              <a class="button button-primary" href="#">Book Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-8_sm-12 testimonials">
-
-        <div class="section-title" align="center">
-          <h2>Testimonials</h2>
-        </div>
-        <div class="container">
-          <div class="grid-equalHeight">
-            <div class="col-4_sm-12 tripadvisor-branding" align="center">
-              <a href="https://www.tripadvisor.com.au/Hotel_Review-g297701-d2548786-Reviews-Villa_Sancita-Ubud_Bali.html">
-                <div class="title">
-                  <h3>Villa Sancita</h3>
-                </div>
-                <div class="rating">
-                  <img src="/images/tripadvisor/rating-5.png" alt="5/5"> 35 Reviews
-                </div>
-                <div class="ta-logo">
-                  <img src="/images/tripadvisor/ta_logo.png" alt="Tripadvisor logo">
-                </div>
-              </a>
-            </div>
-            <div class="col-8_sm-12">
-              <div class="owl-carousel owl-theme" id="tripadvisor-carousel">
-                {% for review in site.reviews reversed %}
-                <div class="tripadvisor-review row">
-                  <div class="tripadvisor-profile column40pc">
-                    <div class="profile-photo">
-                      <img src="/images/tripadvisor/{{review.profile-pic}}" alt="">
-                    </div>
-                    <div class="username">
-                      {{review.username}}
-                    </div>
-                    <div class="location">
-                      {{review.location}}
-                    </div>
-                    <div class="number-reviews">
-                      {{review.number-reviews}} reviews
-                    </div>
-                  </div>
-                  <div class="tripadvisor-body column60pc">
-                    <div class="title">
-                      <h6><em>"{{review.title}}"</em></h6>
-                    </div>
-                    <div class="rating">
-                      <img src="/images/tripadvisor/rating-5.png" alt="5/5">
-                    </div>
-                    <div class="review">
-                      {{review.content}}
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
+  <!--Tripadvisor-section to show 3 reviews that pop up into the full reviews on a separate window (but not linked to Tripadvisor, want to keep them on the Villa Sancita site) -->
+    <section class="tripadvisor-section">
+      <div class="grid-equalHeight no-margin">
+        <div class="col-4_sm-12">
+          <div class="blurb-container-container">
+            <div class="blurb-container">
+              <h4 class="center">Book Directly With Us</h4>
+              <ul>
+                <li>Best Price Guaranteed</li>
+                <li>Breakfast Included</li>
+                <li>Free WiFi</li>
+                <li>Daily Afternoon Tea</li>
+                <li>Private Villa Staff</li>
+              </ul>
+              <div class="center">
+                <a class="button button-primary" href="#">Book Now</a>
               </div>
             </div>
           </div>
         </div>
 
-      </div>
-    </div>
-  </section><!-- end tripadvisor-section -->
+        <div class="col-8_sm-12 testimonials">
 
+          <div class="section-title" align="center">
+            <h2>Testimonials</h2>
+          </div>
+          <div class="container">
+            <div class="grid-equalHeight">
+              <div class="col-4_sm-12 tripadvisor-branding" align="center">
+                <a href="https://www.tripadvisor.com.au/Hotel_Review-g297701-d2548786-Reviews-Villa_Sancita-Ubud_Bali.html">
+                  <div class="title">
+                    <h3>Villa Sancita</h3>
+                  </div>
+                  <div class="rating">
+                    <img src="/images/tripadvisor/rating-5.png" alt="5/5"> 35 Reviews
+                  </div>
+                  <div class="ta-logo">
+                    <img src="/images/tripadvisor/ta_logo.png" alt="Tripadvisor logo">
+                  </div>
+                </a>
+              </div>
+              <div class="col-8_sm-12">
+                <div class="owl-carousel owl-theme" id="tripadvisor-carousel">
+                  {% for review in site.reviews reversed %}
+                  <div class="tripadvisor-review row">
+                    <div class="tripadvisor-profile column40pc">
+                      <div class="profile-photo">
+                        <img src="/images/tripadvisor/{{review.profile-pic}}" alt="">
+                      </div>
+                      <div class="username">
+                        {{review.username}}
+                      </div>
+                      <div class="location">
+                        {{review.location}}
+                      </div>
+                      <div class="number-reviews">
+                        {{review.number-reviews}} reviews
+                      </div>
+                    </div>
+                    <div class="tripadvisor-body column60pc">
+                      <div class="title">
+                        <h6><em>"{{review.title}}"</em></h6>
+                      </div>
+                      <div class="rating">
+                        <img src="/images/tripadvisor/rating-5.png" alt="5/5">
+                      </div>
+                      <div class="review">
+                        {{review.content}}
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- end tripadvisor-section -->
 
 
   <!-- About Villa Sancita-section -->
   <section class="about-section">
-    <div class="grid-noGutter">
-      <div class="col-6">
-        <div class="about-villa-container fivepc-padding">
+    <div class="grid-noGutter-middle">
+      <div class="col-6_sm-12">
+        <div class="about-villa-container grid-text">
           <a href="/thevilla.html"><h3 class="center">About Villa Sancita</h3></a>
           <div class="center">
             <p> Sleek lines, sensational views and sophisticated interiors, matched with prime Ubud location, Villa Sancita is the perfect peaceful retreat.  This luxurious residence serves as a comfortable base for family get-togethers or friends getaways.  Witness a spectacular Bali sunset through tall coconut trees; sip cocktails in the lounge; soak up the sun as the kids splash in the pool; relax – you’re on holiday.</p>
@@ -131,7 +130,7 @@ author: Frances Tse
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-6_sm-12">
         <div>
           <img src="/images/villa-sancita-whole-villa.jpg" alt="Whole Villa Photo">
         </div>

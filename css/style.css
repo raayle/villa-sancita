@@ -42,6 +42,10 @@ img {
   max-width: 100%;
 }
 
+[class*=grid] img {
+  display: block;
+}
+
 .rel {
   position: relative;
 }
@@ -58,19 +62,9 @@ img {
   margin: 0;
 }
 
-.fivepc-padding {
-  padding: 5%;
+.grid-text {
+  padding: 0 5%;
 }
-
-/* .box-img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-/*.box-img.right {
-  margin-left: 50vw;
-}*/
 
 .row .half-width {
   width: 50%;
@@ -422,6 +416,12 @@ span.bold {
 
 /* -----About The Villa Section------ */
 
+.about-section {
+  background: linear-gradient(rgba(11,38,45,0.6), rgba(11,38,45,0.6)), url(../images/homeimage.jpg);
+  background-size: cover;
+  color: #e9e3d5;
+}
+
 .about-section p {
   font-size: 1.7rem;
   padding: 2;
@@ -439,10 +439,6 @@ span.bold {
 
 
 /* --Bedroom-Carousel-section-- */
-section.bedroom img {
-  display: block;
-}
-
 
 .bedroom-carousel-section h2 {
   font-size: 2.3rem;
@@ -751,7 +747,6 @@ footer .two.columns.fa{
     display: none;
   }
 
-
   /* Collapse columns */
 
   .row .half-width {
@@ -836,7 +831,38 @@ footer .two.columns.fa{
   }
 }
 
-*---Phone Styles----*/
+@media screen and (max-width: 767px) {
+  .grid-text {
+    padding: 5%
+  }
+}
 
-@media screen and (max-width:450px){
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .about-villa-container p {
+    line-height: 1
+  }
+
+  .grid-text {
+    padding: 0 2%;
+  }
+
+  .grid-text h3 {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+  }
+
+  .grid-text p{
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1050px) {
+  .grid-text h3 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  .grid-text p{
+    margin-bottom: 10px;
+  }
 }
