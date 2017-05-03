@@ -31,6 +31,13 @@ $( document ).ready(function() {
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"
     ]
   });
+  $("#open-living-carousel").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    dots: true,
+    loop: true
+  });
 
   // *** Rates page ***
   $("#1-2-br").click(function() {

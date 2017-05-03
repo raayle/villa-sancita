@@ -39,7 +39,7 @@ p {
 }
 
 img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 .rel {
@@ -84,6 +84,10 @@ img {
 
 .mobile-show {
   display: none;
+}
+
+.desktop-show {
+  display: block;
 }
 
 .light-bg {
@@ -435,6 +439,10 @@ span.bold {
 
 
 /* --Bedroom-Carousel-section-- */
+section.bedroom img {
+  display: block;
+}
+
 
 .bedroom-carousel-section h2 {
   font-size: 2.3rem;
@@ -443,6 +451,23 @@ span.bold {
   margin-bottom: 5vh;
 }
 
+#open-living-desc-mobile {
+  display: none;
+}
+
+#open-living-desc-desktop {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  #open-living-desc-mobile {
+    display: block;
+  }
+
+  #open-living-desc-desktop {
+    display: none;
+  }
+}
 /* --location-section-- */
 
 .title-section.location-section .right {
@@ -719,6 +744,10 @@ footer .two.columns.fa{
   }
 
   .mobile-hide {
+    display: none;
+  }
+
+  .desktop-show {
     display: none;
   }
 
