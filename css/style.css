@@ -237,7 +237,7 @@ span.bold {
   color: #e9e3d5;
 }
 
-.title-section .left {
+.title-section .textbox {
   background-color: rgba(11,38,45,0.5)
 }
 
@@ -810,7 +810,8 @@ footer .two.columns.fa{
     background-position-x: -616px;
   }
 
-  .title-section .left {
+  .title-section .left,
+  .title-section .right {
     width: 96%;
     margin-left: 2%;
     padding: 15px;
@@ -857,13 +858,20 @@ footer .two.columns.fa{
 /*---Small Tablet or Large Phone Styles----*/
 
 @media screen and (min-width: 801px) {
-  .title-section .left {
+  .title-section .textbox {
     position: absolute;
     bottom: 0vh;
-    left: 2%;
     width: 40%;
     min-width: 512px;
     padding: 10px 30px;
+  }
+
+  .title-section .textbox.left {
+    left: 2%;
+  }
+
+  .title-section .textbox.right {
+    right: 2%;
   }
 }
 
