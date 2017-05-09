@@ -292,6 +292,10 @@ span.bold {
   display: inline-block;
 }
 
+.tripadvisor-section .blurb-container i.fa-check {
+  color: #50a050;
+}
+
 /* TripAdvisor section */
 .tripadvisor-section {
   margin-top: 50px;
