@@ -45,7 +45,21 @@ $( document ).ready(function() {
     dots: true,
     loop: true
   });
+  $("#services-carousel-1").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    dots: true,
+    loop: true
+  });
 
+  $("#services-carousel-1").owlCarousel({
+    items: 2,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    dots: true,
+    loop: true
+  });
   // *** Rates page ***
   $("#1-2-br").click(function() {
     openBedrooms(".1-2-br-rates");
