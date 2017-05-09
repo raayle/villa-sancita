@@ -225,6 +225,9 @@ span.bold {
 }
 
 /* -----Home Page------ */
+#landing-page section {
+  margin-bottom: 15px;
+}
 
 /* --Home-Above-the-fold-- */
 .title-section {
