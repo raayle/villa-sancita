@@ -63,7 +63,7 @@ img {
 }
 
 .blurb {
-  margin: 5%;
+  padding: 5%;
 }
 
 .no-margin {
@@ -226,7 +226,8 @@ span.bold {
 
 /* -----Home Page------ */
 #landing-page section,
-#villa-page section {
+#villa-page section,
+#services-page section {
   margin-bottom: 15px;
 }
 
@@ -544,6 +545,28 @@ span.bold {
   letter-spacing: 1px;
 }
 
+/*** Services page ***/
+#services-page .mobile-hide {
+  display: block;
+}
+
+#services-page .mobile-show {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  #services-page .mobile-hide {
+    display: none;
+  }
+
+  #services-page .mobile-show {
+    display: block;
+  }
+}
+
+#services-page .grid-text h2 {
+  margin-bottom: 1rem;
+}
 
 /* ----- Rates Page ----- */
 #rates-page section,

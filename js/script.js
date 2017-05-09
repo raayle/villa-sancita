@@ -16,7 +16,7 @@ $( document ).ready(function() {
   // *** Landing page ***
   $("#villa-pic-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 10000,
     loop: true,
     dots: true,
     responsive: {
@@ -41,22 +41,22 @@ $( document ).ready(function() {
   $("#open-living-carousel").owlCarousel({
     items: 1,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 10000,
     dots: true,
     loop: true
   });
   $("#services-carousel-1").owlCarousel({
     items: 1,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 10000,
     dots: true,
     loop: true
   });
 
-  $("#services-carousel-1").owlCarousel({
-    items: 2,
+  $("#services-carousel-2").owlCarousel({
+    items: 1,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 10000,
     dots: true,
     loop: true
   });
