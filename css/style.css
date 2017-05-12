@@ -70,7 +70,7 @@ img {
   margin: 0;
 }
 
-.grid-text {
+.text-column {
   padding: 0 5%;
 }
 
@@ -384,6 +384,18 @@ span.bold {
   float: left;
 }
 
+/* Owl carousel */
+.owl-theme .owl-dots .owl-dot span {
+  background: rgba(0,0,0,0);
+  border: 3px solid #D6D6D6;
+  width: 15px;
+  height: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #D6D6D6
+}
+
 .owl-prev, .owl-next {
   position:absolute;
   top: 20%;
@@ -562,7 +574,7 @@ span.bold {
   }
 }
 
-#services-page .grid-text h2 {
+#services-page .text-column h2 {
   margin-bottom: 1rem;
 }
 
@@ -851,6 +863,7 @@ footer .two.columns.fa{
     width: 100%;
   }
 
+  /* Owl carousel */
   .owl-prev, .owl-next {
     top: 10%;
   }
@@ -897,7 +910,7 @@ footer .two.columns.fa{
 }
 
 @media screen and (max-width: 767px) {
-  .grid-text {
+  .text-column {
     padding: 5%
   }
 }
@@ -907,27 +920,27 @@ footer .two.columns.fa{
     line-height: 1
   }
 
-  .grid-text {
+  .text-column {
     padding: 0 2%;
   }
 
-  .grid-text h4 {
+  .text-column h4 {
     font-size: 2.4rem;
     margin-bottom: 8px;
   }
 
-  .grid-text p{
+  .text-column p{
     margin-bottom: 5px;
   }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1050px) {
-  .grid-text h4 {
+  .text-column h4 {
     font-size: 3rem;
     margin-bottom: 15px;
   }
 
-  .grid-text p{
+  .text-column p{
     margin-bottom: 10px;
   }
 }
