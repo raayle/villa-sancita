@@ -5,41 +5,36 @@ description: Gallery of Villa Sancita, a three bedroom villa in Ubud, Bali
 author:
 bodyId: gallery-page
 images:
+# note: images must have a thumbnail with the same name as the full-size image, but -small.jpg on the end. e.g., villa.jpg with
+# a thumbnail named villa-small.jpg
+  - image_path: /images/villa-sancita-master2.jpg
+    title: Master bedroom
+  - image_path: /images/villa-sancita-living-room.jpg
+    title: Living room
+  - image_path: /images/villa-sancita-whole-villa.jpg
+    title: The villa from the ricepaddies
   - image_path: /images/villa-sancita-gallery-child-pool.jpg
-    image_thumb_path: /images/villa-sancita-gallery-child-pool.jpg
     title: Sancita Child
-  - image_path: /images/villa-sancita-gallery-pool.jpg
-    image_thumb_path: /images/villa-sancita-gallery-pool.jpg
-    title: Sancita Pool
-  - image_path: /images/villa-sancita-gallery-bathroom.jpg
-    image_thumb_path: /images/villa-sancita-gallery-bathroom.jpg
-    title: Main Floor Bathroom
-  - image_path: /images/villa-sancita-gallery-viewfrommaster.jpg
-    image_thumb_path: /images/villa-sancita-gallery-viewfrommaster.jpg
-    title: View from Master Bedroom
-  - image_path: /images/villa-sancita-gallery-stone-detail.jpg
-    image_thumb_path: /images/villa-sancita-gallery-stone-detail.jpg
-    title: Stone Detail
   - image_path: /images/villa-sancita-gallery-santi-offerings.jpg
-    image_thumb_path: /images/villa-sancita-gallery-santi-offerings.jpg
     title: Manager Santi
-  - image_path: /images/villa-sancita-gallery-bale-detail.jpg
-    image_thumb_path: /images/villa-sancita-gallery-bale-detail.jpg
-    title: Bale Detail
+  - image_path: /images/villa-sancita-gallery-bathroom.jpg
+    title: Main Floor Bathroom
+  - image_path: /images/villa-sancita-gallery-pool.jpg
+    title: Sancita Pool
   - image_path: /images/villa-sancita-gallery-dancing-statue.jpg
-    image_thumb_path: /images/villa-sancita-gallery-dancing-statue.jpg
     title: Dancing Statue
   - image_path: /images/villa-sancita-gallery-rujak.jpg
-    image_thumb_path: /images/villa-sancita-gallery-rujak.jpg
-      title: Rujak
+    title: Rujak
+  - image_path: /images/villa-sancita-gallery-bale-detail.jpg
+    title: Bale Detail
   - image_path: /images/villa-sancita-gallery-stairsview.jpg
-    image_thumb_path: /images/villa-sancita-gallery-stairsview.jpg
-      title: View from Stairs
-
-
-
-
-
+    title: View from Stairs
+  - image_path: /images/villa-sancita-gallery-stone-detail.jpg
+    title: Stone Detail
+  - image_path: /images/villa-sancita-masterbath.jpg
+    title: The bath in the master bedroom's ensuite
+  - image_path: /images/villa-sancita-gallery-viewfrommaster.jpg
+    title: View from Master Bedroom
 ---
 <!-- The Villa-Above-the-fold-section -->
 <section class="rates-hero hero-container">
@@ -57,7 +52,7 @@ images:
       {% for image in page.images %}
         <div class="grid-item">
           <a href="{{ image.image_path }}" data-lightbox="gallery" data-title="{{ image.title }}">
-            <img src="{{ image.image_thumb_path }}" alt="{{ image.title }}" />
+            <img src="{{ image.image_path | remove: '.jpg' | append: '-small.jpg' }}" alt="{{ image.title }}" />
           </a>
         </div>
       {% endfor %}

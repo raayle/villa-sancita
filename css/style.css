@@ -702,11 +702,15 @@ section.distances-map, section.distances-map div.half-width {
 .grid-sizer,
 .grid-item {
   width: 32%;
-  /*margin-bottom: 0.5%;*/
+  margin-bottom: 1%;
+}
+
+.grid-item--width-2 {
+  width: 64%;
 }
 
 .gutter-sizer {
-  width: 1%;
+  width: 2%;
 }
 
 @media screen and (max-width: 799px) {
