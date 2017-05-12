@@ -78,10 +78,10 @@ $( document ).ready(function() {
   }
 
   // *** Gallery ***
-  var $grid = $('.grid').masonry({
+  var $grid = $('.mason').masonry({
     // options
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
+    itemSelector: '.mason-item',
+    columnWidth: '.mason-sizer',
     gutter: '.gutter-sizer',
     percentPosition: true,
   });

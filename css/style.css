@@ -711,13 +711,13 @@ section.distances-map, section.distances-map div.half-width {
 
 /* ---- Gallery page ---- */
 
-.grid-sizer,
-.grid-item {
+.mason-sizer,
+.mason-item {
   width: 32%;
   margin-bottom: 1%;
 }
 
-.grid-item--width-2 {
+.mason-item--width-2 {
   width: 64%;
 }
 
@@ -725,9 +725,17 @@ section.distances-map, section.distances-map div.half-width {
   width: 2%;
 }
 
+.mason-item a {
+  width: 100%;
+}
+
+.mason-item a img {
+  width: 100%;
+}
+
 @media screen and (max-width: 799px) {
-  .grid-sizer,
-  .grid-item {
+  .mason-sizer,
+  .mason-item {
     width: 100%;
     /*margin-bottom: 0.5%;*/
   }

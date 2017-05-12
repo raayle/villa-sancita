@@ -46,11 +46,11 @@ images:
 <section class="gallery">
   <div class="container">
 
-    <div class="grid">
-      <div class="grid-sizer"></div>
+    <div class="mason">
+      <div class="mason-sizer"></div>
       <div class="gutter-sizer"></div>
       {% for image in page.images %}
-        <div class="grid-item">
+        <div class="mason-item">
           <a href="{{ image.image_path }}" data-lightbox="gallery" data-title="{{ image.title }}">
             <img src="{{ image.image_path | remove: '.jpg' | append: '-small.jpg' }}" alt="{{ image.title }}" />
           </a>
