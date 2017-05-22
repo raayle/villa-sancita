@@ -80,8 +80,8 @@ img {
 }
 
 .right {
-  width: 35%;
-  float: right;
+  /*width: 35%;*/
+  /*float: right;*/
 }
 
 .mobile-show {
@@ -236,14 +236,17 @@ span.bold {
 
 /* --Home-Above-the-fold-- */
 .title-section {
-  background-image: url(../images/villa-sancita-homeimage.jpg);
   background-size: cover;
   height: 100vh;
   color: #e9e3d5;
 }
 
+.title-section.landing-title {
+  background-image: url(../images/villa-sancita-homeimage.jpg);
+}
+
 .title-section .textbox {
-  background-color: rgb(72,92,98);
+  background-color: rgba(11,38,45,0.5);
 }
 
 .title-section h1 {
@@ -477,10 +480,8 @@ span.bold {
 
 .title-section.thevilla-section {
   background-image: url("../images/villa-sancita-the-villa.jpg");
-  background-size: cover;
-  background-color: rgba(11,38,45,0.5);
-  height: 100vh;
-  color: #e9e3d5;
+  /*background-size: cover;*/
+  /*background-color: rgba(11,38,45,0.5);*/
 }
 
 .bedroom-carousel-section .blurb {
@@ -510,9 +511,9 @@ span.bold {
     display: none;
   }
 }
-/* --location-section-- */
+/**** --- Location page --- ****/
 
-.title-section.location-section .right {
+.title-section.location-section .textbox {
   background-color: rgba(11,38,45,0.7)
 }
 
@@ -534,12 +535,7 @@ span.bold {
   letter-spacing: 1px;
 }
 
-/* --services-section-- */
-
-.title-section.services-section .left {
-  background-color: rgba(11,38,45,0.5)
-}
-
+/**** Services page ****/
 .title-section.services-section {
   background-image: url("../images/villa-sancita-services.jpg");
 }
@@ -852,15 +848,24 @@ footer .two.columns.fa{
   .title-section {
     background: #FFFFFF;
     height: initial;
-    min-height: 100vh;
     padding-top: 68px;
     background-position-x: -616px;
   }
 
+  .title-section.landing-title,
+  .title-section.thevilla-section,
+  .title-section.location-section,
+  .title-section.services-section {
+    background: #FFFFFF;
+  }
+
+
+
+
   .title-section .textbox {
     width: 100%;
     padding: 15px;
-    background-color:
+    background-color: rgb(72,92,98);
   }
 
   .intro {
