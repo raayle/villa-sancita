@@ -118,8 +118,11 @@ header {
 
 /* Used for the header opacity transition, added in script.js */
 .active-nav {
+  transition: 1s;
+}
+
+.active-nav .dropdown-nav {
   background-color: rgba(0, 0, 0, 0.85);
-  border-bottom: 3px solid rgba(0,0,0,0);
   transition: 1s;
 }
 
@@ -168,7 +171,7 @@ nav li a:hover {
   text-align: right;
   width: 100%;
   padding: 10px 0 12px 0;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,1);
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -240,7 +243,7 @@ span.bold {
 }
 
 .title-section .textbox {
-  background-color: rgba(11,38,45,0.5)
+  background-color: rgb(72,92,98);
 }
 
 .title-section h1 {
@@ -847,15 +850,17 @@ footer .two.columns.fa{
   }
 
   .title-section {
-    padding-top: 18vh;
+    background: #FFFFFF;
+    height: initial;
+    min-height: 100vh;
+    padding-top: 68px;
     background-position-x: -616px;
   }
 
-  .title-section .left,
-  .title-section .right {
-    width: 96%;
-    margin-left: 2%;
+  .title-section .textbox {
+    width: 100%;
     padding: 15px;
+    background-color:
   }
 
   .intro {
