@@ -38,6 +38,14 @@ $( document ).ready(function() {
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"
     ]
   });
+  $("#about-villa-carousel").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 7000,
+    dots: true,
+    loop: true
+  });
+
   $("#open-living-carousel").owlCarousel({
     items: 1,
     autoplay: true,
