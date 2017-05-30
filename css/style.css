@@ -566,7 +566,7 @@ span.bold {
 }
 
 section.rates-hero {
-  background-image: url(../images/rates-bg.jpg);
+  background-image: linear-gradient(rgba(11, 38, 45, 0.5), rgba(11,38,45,0.5)), url('../images/villa-sancita-rates-hero.jpg');
 }
 
 .hero-container .hero-title {
@@ -639,7 +639,7 @@ div.tab:focus, div.tab.active {
 
 /* #### Location and Services #### */
 section.hero-container.location-hero {
-    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('../images/location-bg.jpg');
+    background-image: url('../images/location-bg.jpg');
 }
 
 @media screen and (min-width: 800px) {
@@ -682,6 +682,10 @@ section.distances-map, section.distances-map div.half-width {
 
 
 /* ---- Gallery page ---- */
+section.gallery-hero {
+  background-image: linear-gradient(rgba(11, 38, 45, 0.5), rgba(11,38,45,0.5)), url('../images/villa-sancita-gallery-hero.jpg');
+}
+
 
 .mason-sizer,
 .mason-item {
@@ -727,6 +731,10 @@ section.distances-map, section.distances-map div.half-width {
 }
 
 /* ------ Contact us page ------ */
+section.contact-hero {
+  background-image: linear-gradient(rgba(11, 38, 45, 0.5), rgba(11,38,45,0.5)), url('../images/villa-sancita-gallery-stone-detail.jpg');
+}
+
 .contact-section form {
   max-width: 600px;
   margin: 0 auto;
