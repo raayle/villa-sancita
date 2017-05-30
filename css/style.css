@@ -763,6 +763,12 @@ section.contact-hero {
   background-color: #aee3a2;
 }
 
+/* ----- Booking page ----- */
+section.booking-hero {
+  background-image: linear-gradient(rgba(11, 38, 45, 0.5), rgba(11,38,45,0.5)), url('../images/rates-bg.jpg');
+}
+
+
 /* --Footer Section-- */
 footer .row{
     padding: 5%
