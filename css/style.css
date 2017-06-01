@@ -851,9 +851,6 @@ footer .two.columns.fa{
     background: #FFFFFF;
   }
 
-
-
-
   .title-section .textbox {
     width: 100%;
     padding: 15px;
@@ -890,6 +887,11 @@ footer .two.columns.fa{
     text-align: center;
     padding-right: 0;
     margin: 35px 0 15px;
+  }
+
+  /* Rates/Gallery/Contact/Booking pages */
+  .hero-container .hero-title {
+    top: 52%;
   }
 }
 /*---Small Tablet or Large Phone Styles----*/
