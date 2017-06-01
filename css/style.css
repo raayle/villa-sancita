@@ -230,6 +230,7 @@ span.bold {
 /* -----Home Page------ */
 #landing-page section,
 #villa-page section,
+#location-page section,
 #services-page section {
   margin-bottom: 15px;
 }
@@ -552,7 +553,6 @@ span.bold {
 
 /* ----- Rates Page ----- */
 #rates-page section,
-#location-page section,
 #gallery-page section,
 #contact-page section {
   margin-bottom: 100px;
@@ -576,6 +576,11 @@ section.rates-hero {
   left: 0;
   right: 0;
   color: #FFF;
+}
+
+.exclusive-use {
+  max-width: 710px;
+  margin-bottom: 40px;
 }
 
 /*** Rates table ***/
@@ -885,13 +890,6 @@ footer .two.columns.fa{
     text-align: center;
     padding-right: 0;
     margin: 35px 0 15px;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  /* So that the hero text doesn't clip on tiny screens */
-  .title-section {
-    height: 105vh;
   }
 }
 /*---Small Tablet or Large Phone Styles----*/
