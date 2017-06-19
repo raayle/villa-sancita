@@ -132,8 +132,8 @@ header .header-container {
 }
 
 header img.logo {
-  height: 50px;
-  margin: 13px 0 13px 20px;
+  height: 61px;
+  margin: 13px 0 0 20px;
 }
 
 header li {
@@ -217,8 +217,8 @@ span.bold {
   }
 
   header img.logo {
-    height: 40px;
-    margin: 13px 0 5px 10px;
+    height: 46px;
+    margin: 13px 0 0 10px;
   }
 
   nav {
@@ -833,8 +833,6 @@ footer .two.columns.fa{
 
   header img {
     text-align:center;
-    margin: 15px 0 0 15px;
-    height: 85px;
   }
 
   .title-section {
