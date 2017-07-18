@@ -106,7 +106,7 @@ $( document ).ready(function() {
 	var defaultSubmitText = $submit.val();
 
 	$.ajax({
-		url: '//formspree.io/nick.x.chin@gmail.com',
+		url: '//formspree.io/info@villasancita.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
