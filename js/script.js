@@ -33,6 +33,7 @@ $( document ).ready(function() {
     autoplay: false,
     dots: false,
     nav: true,
+    loop: true,
     navText: [
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-left.png'></div>",
       "<div class='ta-nav-left'><img src='/images/tripadvisor/navigate-right.png'></div>"

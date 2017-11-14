@@ -75,7 +75,7 @@ bodyId: landing-page
                     <h1>Villa Sancita</h1>
                   </div>
                   <div class="rating">
-                    <img src="/images/tripadvisor/rating-5.png" alt="5/5"> 35 Reviews
+                    <img src="/images/tripadvisor/rating-5.png" alt="5/5"> 40 Reviews
                   </div>
                   <div class="ta-logo">
                     <img src="/images/tripadvisor/ta_logo.png" alt="Tripadvisor logo">
@@ -97,7 +97,7 @@ bodyId: landing-page
                         {{review.location}}
                       </div>
                       <div class="number-reviews">
-                        {{review.number-reviews}} reviews
+                        {{review.number-reviews}} {% if review.number-reviews == 1 %} review {% else %} reviews {% endif %}
                       </div>
                     </div>
                     <div class="tripadvisor-body column60pc">
