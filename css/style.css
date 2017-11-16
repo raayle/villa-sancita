@@ -538,6 +538,14 @@ section.rates-hero {
   max-width: 710px;
 }
 
+.normal-price {
+  text-decoration: line-through;
+}
+
+.discounted-price {
+  color: #FF0000;
+}
+
 /* Style the tab */
 div.tabs {
     overflow: hidden;
