@@ -210,23 +210,6 @@ span.bold {
   font-weight: bold;
 }
 
-/* Nav for devices 800px to 902px wide */
-@media screen and (max-width: 910px) {
-  header li {
-    margin: 0 3px;
-  }
-
-  header img.logo {
-    height: 46px;
-    margin: 13px 0 0 10px;
-  }
-
-  nav {
-    margin: 22px 0 4px 0;
-    padding-right: 13px;
-  }
-}
-
 /* -----Home Page------ */
 #landing-page section,
 #villa-page section,
@@ -355,20 +338,6 @@ span.bold {
 
 .tripadvisor-review .title h6 {
   margin-bottom: 2px;
-}
-
-@media screen and (max-width: 800px) {
-  .tripadvisor-section {
-    padding: 0 10px 0 10px;
-  }
-
-  .tripadvisor-section .section-title {
-    margin-top: 80px;
-  }
-
-  .testimonials {
-      background-image: url('../images/ricepaper-light.png')
-  }
 }
 
 .owl-carousel .owl-item .rating img {
@@ -505,15 +474,6 @@ span.bold {
   display: block;
 }
 
-@media screen and (max-width: 800px) {
-  #open-living-desc-mobile {
-    display: block;
-  }
-
-  #open-living-desc-desktop {
-    display: none;
-  }
-}
 /**** --- Location page --- ****/
 
 .title-section.location-section .textbox {
@@ -535,16 +495,6 @@ span.bold {
 
 #services-page .mobile-show {
   display: none;
-}
-
-@media screen and (max-width: 800px) {
-  #services-page .mobile-hide {
-    display: none;
-  }
-
-  #services-page .mobile-show {
-    display: block;
-  }
 }
 
 #services-page .text-column h2 {
@@ -647,12 +597,6 @@ section.hero-container.location-hero {
     background-image: url('../images/location-bg.jpg');
 }
 
-@media screen and (min-width: 800px) {
-  section.description-section {
-    padding-top: 25px;
-  }
-}
-
 section.distances-map, section.distances-map div.half-width {
   height: 450px;
 }
@@ -669,12 +613,6 @@ section.distances-map, section.distances-map div.half-width {
   border-bottom: 0 solid black;
   padding-top: 2px;
   padding-bottom: 2px;
-}
-
-@media screen and (max-width: 400px) {
-  td {
-    padding: 12px 4px;
-  }
 }
 
 .distances-container .distances-title {
@@ -712,18 +650,6 @@ section.gallery-hero {
 
 .mason-item a img {
   width: 100%;
-}
-
-@media screen and (max-width: 799px) {
-  .mason-sizer,
-  .mason-item {
-    width: 100%;
-    /*margin-bottom: 0.5%;*/
-  }
-
-  .gutter-sizer {
-    width: 0;
-  }
 }
 
 /* Lightbox stuff */
@@ -798,8 +724,27 @@ footer .two.columns.fa{
   border-radius: 10%;
 }
 
+@media screen and (max-width: 400px) {
+  /* Formatting adjustments for rates table */
+  td {
+    padding: 12px 4px;
+  }
+}
 
-/*---Tablet Styles----*/
+/* Gallery adjustments */
+@media screen and (max-width: 799px) {
+  .mason-sizer,
+  .mason-item {
+    width: 100%;
+    /*margin-bottom: 0.5%;*/
+  }
+
+  .gutter-sizer {
+    width: 0;
+  }
+}
+
+/*---Phone/Tablet Styles----*/
 
 @media screen and (max-width:800px) {
   /* Universal */
@@ -887,11 +832,61 @@ footer .two.columns.fa{
     margin: 35px 0 15px;
   }
 
+  .tripadvisor-section {
+    padding: 0 10px 0 10px;
+  }
+
+  .tripadvisor-section .section-title {
+    margin-top: 80px;
+  }
+
+  .testimonials {
+      background-image: url('../images/ricepaper-light.png')
+  }
+
+  /* Images at bottom */
+
+  #open-living-desc-mobile {
+    display: block;
+  }
+
+  #open-living-desc-desktop {
+    display: none;
+  }
+
   /* Rates/Gallery/Contact/Booking pages */
   .hero-container .hero-title {
     top: 52%;
   }
+
+  /* Services page */
+  #services-page .mobile-hide {
+    display: none;
+  }
+
+  #services-page .mobile-show {
+    display: block;
+  }
 }
+
+
+/* Nav for devices 800px to 902px wide */
+@media screen and (max-width: 910px) {
+  header li {
+    margin: 0 3px;
+  }
+
+  header img.logo {
+    height: 46px;
+    margin: 13px 0 0 10px;
+  }
+
+  nav {
+    margin: 22px 0 4px 0;
+    padding-right: 13px;
+  }
+}
+
 /*---Small Tablet or Large Phone Styles----*/
 
 @media screen and (min-width: 801px) {
@@ -910,6 +905,11 @@ footer .two.columns.fa{
   .title-section .textbox.right {
     right: 2%;
   }
+
+  section.description-section {
+    padding-top: 25px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {

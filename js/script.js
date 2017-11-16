@@ -70,14 +70,18 @@ $( document ).ready(function() {
     loop: true
   });
   // *** Rates page ***
-  $("#1-2-br").click(function() {
-    openBedrooms(".1-2-br-rates");
+  $("#1-br").click(function() {
+    openBedrooms(".1-br-rates");
     $(this).addClass("active");
-  }).click();
+  });
+  $("#2-br").click(function() {
+    openBedrooms(".2-br-rates");
+    $(this).addClass("active");
+  });
   $("#3-br").click(function() {
     openBedrooms(".3-br-rates");
     $(this).addClass("active");
-  });
+  }).click();
 
   function openBedrooms(target) {
     $(".tab").removeClass("active");
