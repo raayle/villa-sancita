@@ -2,7 +2,7 @@
 username: seileyvr
 location:
 profile-pic: swowtravels.jpg
-number-reviews: 7
+number-reviews: 3
 title: Ubud's best kept secret!
 rating: 5
 permalink: >-
