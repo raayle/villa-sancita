@@ -1,18 +1,13 @@
 ---
-username: SWOWtravels
-location: 'Miami, Florida'
+username: seileyvr
+location:
 profile-pic: swowtravels.jpg
 number-reviews: 7
 title: Ubud's best kept secret!
 rating: 5
 permalink: >-
   //www.tripadvisor.com.au/ShowUserReviews-g297701-d2548786-r336539802-Villa_Sancita-Ubud_Bali.html
-review: >-
-  We recently spent 6 nights here, it was amazing. The villa is located a few
-  kms from the main street in Ubud, far enough to be quiet but close enough to
-  ride to town in a few minutes. There were several lovely warungs (made becik,
-  warung bintang bali, akamana) on the same road which we ate lovely meals at
-  and there is a good spa (ubud wellness spa 2) just a few metres down the road.
-  Santi and her staff were impeccable and could not be faulted. They were so
-  professional and helpful, available but not intrusive.
+review:
 ---
+
+A place to unwind and relax in an architecturally stunning home. The open concept of the living room and dining room allows you to reconnect with nature in the comforts of your own home. Villa Sancita is the perfect destination to escape the hustle and bustle of every day life. The location is ideal as it is far enough from Ubud to enjoy the serenity of the rice fields yet within walking distance/ drive to Ubud center for some entertainment. The staff at the Villa are simply wonderful; customer service at its finest. They welcome you with a warm smile and are always available should you have a question or request. I have many fond memories of my stay and would recommend you book this Villa without hesitation.
