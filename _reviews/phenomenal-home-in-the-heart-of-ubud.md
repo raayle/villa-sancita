@@ -1,9 +1,8 @@
 ---
 username: Naomi A
 location: 'Oklahoma City, Oklahoma, United States'
-profile-pic: >-
-  https://media-cdn.tripadvisor.com/media/photo-o/04/78/a5/cd/facebook-avatar.jpg
-number-reviews: 7
+profile-pic: 'https://media-cdn.tripadvisor.com/media/photo-s/01/2e/70/83/avatar004.jpg'
+number-reviews: 12
 title: Phenomenal home in the heart of Ubud
 rating: 5
 permalink: >-
