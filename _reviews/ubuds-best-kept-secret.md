@@ -1,7 +1,7 @@
 ---
 username: seileyvr
 location:
-profile-pic: swowtravels.jpg
+profile-pic: 'https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/68/avatar046.jpg'
 number-reviews: 3
 title: Ubud's best kept secret!
 rating: 5
